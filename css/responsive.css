@@ -75,15 +75,69 @@
   }
   
   .medsos li {
-    margin-left: 36px;
+    margin-left: 3p6x;
   }
 
   .medsos-text {
     display: none;
   }
 
+  .apps-icon {
+    flex-direction: column;
+  }
+
+  .app-icon {
+    margin: 0 auto;
+    width: 60%;
+  }
+  
+  .app-icon:first-child {
+    margin: 0 auto 20px ;
+  }
+  
+  .txt-icon {
+    text-align: center;
+    display: inline-flex;
+  }
+ 
+
+  .txt-icon p:first-child {
+    margin-right: 5px;
+  }
+
   .app-icon fab {
     font: 10px;
+  }
+  
+  .extra {
+    display: block;
+  }
+
+  .extra-left {
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .extra-right {
+    width: 100%;
+
+  }
+
+  .footer {
+    text-align: center;
+
+  }
+
+  .footer-left {
+    text-align: center;
+    width: 100%;
+  }
+
+  .footer-right {
+    margin-top: 15px;
+    text-align: center;
+    width: 100%;
   }
 }
 
