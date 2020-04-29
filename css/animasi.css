@@ -38,3 +38,43 @@
     transform: scale(1);
   }
 }
+
+.profil-tim {
+  height: 500px;
+  margin-top: 100px;
+    animation: timanimation 1s ease-in-out;
+}
+
+@keyframes timanimation {
+  0%{
+    margin-bottom: -40px;
+  }
+  30%{
+  letter-spacing: 25px;
+  margin-bottom:-40px;
+  }
+  85%{
+    letter-spacing: 8px;
+    argin-bottom: -40px;
+  }
+}
+
+.message h2 {
+  margin-bottom: 10px;
+  font-size: 40px;
+  animation: messageanimation 3s steps(27);
+}
+@keyframes messageanimation {
+  from {width: 0}
+  to {width: 100%}
+}
+
+.heading > * {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: topanimation 3s steps(27);
+}
+@keyframes topanimation {
+  from {width: 0}
+  to {width: 100%}
+}
