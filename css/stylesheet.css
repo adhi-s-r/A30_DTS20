@@ -222,7 +222,16 @@ header {
   padding: 15px 25px 10px;
   width: 46%;
   border-radius: 5px;
+  box-shadow: 0 7px #666;
+  cursor: pointer;
 }
+
+.app-icon:active {
+  position: relative;
+  box-shadow: none;
+  top: 7px;
+
+} 
 
 .app-icon:first-child {
   margin-right: 30px;
